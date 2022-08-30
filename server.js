@@ -34,4 +34,4 @@ app.get("/work",(req,res)=>{
 })
 
 
-app.listen(8000,()=>console.log("server started on port 8000"))
+app.listen(process.env.PORT||7000)
